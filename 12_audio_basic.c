@@ -8,6 +8,7 @@
 *******************************************************************************************/
 
 #include "raylib.h"
+#include <stdlib.h>
 
 int main(void)
 {
@@ -47,7 +48,7 @@ int main(void)
     // Sound is the loaded sound (in audio device memory)
     
     // Generate a "beep" sound - simple sine wave
-    Wave beepWave = LoadWaveSamples(NULL);  // We'll create it manually
+    // Wave beepWave = LoadWaveSamples(NULL);  // (This line was causing a compilation error)
     
     // Actually, let's use raylib's wave generation
     // These functions create procedural audio waveforms

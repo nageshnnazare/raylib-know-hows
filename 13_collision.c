@@ -249,7 +249,6 @@ int main(void)
             DrawRectangleRec(player, playerColor);
             
             // Draw player collision circle (for visualization)
-            Vector2 playerCenter = { player.x + 20, player.y + 20 };
             DrawCircleLines((int)playerCenter.x, (int)playerCenter.y, 20, Fade(GREEN, 0.5f));
             
             // ============================================================

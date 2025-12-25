@@ -1,7 +1,7 @@
 /*******************************************************************************************
 *
 *   RAYLIB LESSON 01: Hello Window
-*   
+*
 *   Welcome to your first raylib program! This example creates a simple window.
 *   We'll explain every single line so you understand what's happening.
 *
@@ -18,7 +18,7 @@ int main(void)
 {
     // Initialization
     //--------------------------------------------------------------------------------------
-    
+
     // These constants define our window size
     // const means these values won't change during the program
     // The window will be 800 pixels wide and 450 pixels tall
@@ -41,7 +41,7 @@ int main(void)
 
     // Main game loop
     //--------------------------------------------------------------------------------------
-    
+
     // WindowShouldClose() returns false while the window is open
     // It returns true when the user clicks the X button or presses ESC
     // The ! means "not", so !WindowShouldClose() means "while window should NOT close"
@@ -60,7 +60,7 @@ int main(void)
 
         // Draw
         //----------------------------------------------------------------------------------
-        
+
         // BeginDrawing() tells raylib we're about to draw things on screen
         // Everything between BeginDrawing() and EndDrawing() will appear on screen
         // Think of it as opening a canvas to paint on
@@ -90,7 +90,7 @@ int main(void)
 
     // De-Initialization
     //--------------------------------------------------------------------------------------
-    
+
     // CloseWindow() closes the window and cleans up raylib resources
     // This frees memory and properly shuts down the graphics system
     // ALWAYS call this when your program ends
@@ -107,7 +107,7 @@ int main(void)
 /*******************************************************************************************
 *
 *   KEY CONCEPTS LEARNED:
-*   
+*
 *   1. InitWindow() - Creates a window (always call this first)
 *   2. SetTargetFPS() - Sets how fast your game runs
 *   3. Game Loop - The while loop that runs continuously
@@ -118,7 +118,7 @@ int main(void)
 *   8. CloseWindow() - Cleans up when done (always call this last)
 *
 *   THE GAME LOOP PATTERN:
-*   
+*
 *   while (game is running) {
 *       1. Handle Input (keyboard, mouse, etc.)
 *       2. Update (game logic, physics, AI)
